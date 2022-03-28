@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.background{
+  background: linear-gradient(180deg, rgba(83, 105, 204, 0.699), rgba(41, 126, 165, 0.658)),url("../src/image/moneytransferbg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom-text{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600
+}
+.bottom-link{
+  color: #f3b10a;
+  font-size: 22px;
+  text-decoration: none;
+  font-style: italic;
+  transition: 0.4s all ease;
+}
+.bottom-link:hover{
+  color: #d4a93c;
+}
+.Button{
+  margin-top: 20px;
 }
