@@ -9,7 +9,7 @@ import Transaction from './Transaction';
 
 const Router = ()=>(
     <Routes>
-        <Route exact path ='/' caseSensitive={false} element={<Login/>} />
+        <Route exact path ='/moneytransfer' caseSensitive={false} element={<Login/>} />
         <Route exact path ='/signup' caseSensitive={false} element={<Signup/>} />
         <Route exact path ='/dashboard' caseSensitive={false} element={<Dashboard/>} />
         <Route exact path ='/transaction' caseSensitive={false} element={<Transaction/>} />
