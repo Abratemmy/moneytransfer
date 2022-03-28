@@ -23,6 +23,11 @@ function Signup() {
             return setError('password do not match')
         }
 
+        if(passwordRef.current.value.length< 6){
+           return setError("Password must be greater than 6 characters")
+        }
+        
+
         try{
             setError('')
             setLoading(true);

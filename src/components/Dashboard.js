@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import {Button, Alert} from "react-bootstrap";
+import {Button, Alert, Container} from "react-bootstrap";
 import { Link, useNavigate } from 'react-router-dom';
 import {useAuth} from "../contexts/AuthContext";
 import "./dashboard.css"
@@ -32,6 +32,8 @@ function Dashboard() {
                 </nav>
             </div>
 
+            <Container className='d-flex align-items-center justify-content-center' style={{marginTop: "40px"}}>
+            <div className='w-100' style={{maxWidth: "500px"}}>
             <div className='container'>
                 {error && <Alert variant="danger">{error}</Alert>}
             </div>
@@ -52,13 +54,13 @@ function Dashboard() {
                 <table>
                 
                 <tr>
-                    <th>ID</th>
+                    {/* <th>ID</th>
                     <th>From</th>
                     <th>To</th>
                     <th>Value</th>
                     <th>Currency</th>
                     <th>Created At</th>
-                    <th>Updated At</th>
+                    <th>Updated At</th> */}
                 </tr>
                 <tr>
                     <td></td>
@@ -73,6 +75,8 @@ function Dashboard() {
                 
                 </table>
             </div>
+            </div>
+            </Container>
         </div>
       </>
     

@@ -78,12 +78,11 @@
 }
 .transaction-result{
     box-shadow: 0px 0px 2px 2px #f3b10a;
-    width: 700px;
     margin: auto;
     background: rgb(214, 211, 211);
     margin-top: 50px;
     padding: 20px 5px;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 }
 .transaction-result .top{
     display: flex;
