@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/moneytransfer/static/css/main.c70e3128.css",
-    "main.js": "/moneytransfer/static/js/main.8e130ef7.js",
+    "main.css": "/moneytransfer/static/css/main.a4a2256d.css",
+    "main.js": "/moneytransfer/static/js/main.f46438fa.js",
     "static/media/moneytransferbg.webp": "/moneytransfer/static/media/moneytransferbg.c25a6ebbe260d7cf16f9.webp",
     "static/media/dashboardbg.jpg": "/moneytransfer/static/media/dashboardbg.b4dfdff39e4d3736cd8f.jpg",
     "index.html": "/moneytransfer/index.html",
-    "main.c70e3128.css.map": "/moneytransfer/static/css/main.c70e3128.css.map",
-    "main.8e130ef7.js.map": "/moneytransfer/static/js/main.8e130ef7.js.map"
+    "main.a4a2256d.css.map": "/moneytransfer/static/css/main.a4a2256d.css.map",
+    "main.f46438fa.js.map": "/moneytransfer/static/js/main.f46438fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.c70e3128.css",
-    "static/js/main.8e130ef7.js"
+    "static/css/main.a4a2256d.css",
+    "static/js/main.f46438fa.js"
   ]
 }
